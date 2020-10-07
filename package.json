@@ -1,0 +1,38 @@
+{
+  "name": "blog_api_backend",
+  "version": "1.0.0",
+  "description": "blog api backend",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "aa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aa"
+  },
+  "keywords": [
+    "aa"
+  ],
+  "author": "Nikola Pavicevic",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.1.1"
+  }
+}
